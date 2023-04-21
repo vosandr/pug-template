@@ -11,4 +11,4 @@ app.use("/", function(request, response){
 }); 
 app.use(express.static(path.join(__dirname, 'views')));
 
-app.listen(port, () => console.log('http://localhost:${8080}'));
+app.listen(port, () => console.log('http://localhost:${port}'));
